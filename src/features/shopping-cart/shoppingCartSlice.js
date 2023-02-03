@@ -40,3 +40,7 @@ export const countTotalPrice = (cart) =>
 export const countPrice = (price, qty) => {
   return parseFloat((price * qty).toFixed(2));
 };
+
+export const totalCheckout = (total, ongkir) => {
+  return parseFloat((total - ongkir).toFixed(2));
+};
