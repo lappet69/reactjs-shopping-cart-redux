@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { FaHeart, FaTrash } from "react-icons/fa";
+// import { FaHeart, FaTrash } from "react-icons/fa";
 import {
   countPrice,
   countTotalPrice,
@@ -69,11 +69,11 @@ const ShoppingCart = () => {
                         className="flex gap-1 items-center uppercase text-xs"
                         onClick={() => removeFromCart(item?.id)}
                       >
-                        <FaTrash />
+                        {/* <FaTrash /> */}
                         remove item
                       </button>
                       <button className="flex gap-1 items-center uppercase text-xs">
-                        <FaHeart />
+                        {/* <FaHeart /> */}
                         move to wishlist
                       </button>
                       <p className="ml-auto">
